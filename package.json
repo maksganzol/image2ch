@@ -1,0 +1,18 @@
+{
+  "name": "image2ch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "tsc -p ./",
+    "run": "npm run compile && npde out/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GANZOL"
+}
